@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>DremPK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+</head>
+<body style="background-color: #000">
+  <header>
+      <a href="/">
+        <img src="Logo.svg" />
+      </a>
+    <div class="title">
+      <div class="drem">DremPK</div>
+      <div class="pink">Интернет-магазин комп-техники</div>
+    </div>
+  </header>
+  <menu>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="#model">Модели</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+      <li><a href="О нас.html">О нас</a></li>
+      <li><a id='demoModalStart' class='demoModalStart'>Войти</a></li>
+    </ul>
+  </menu>
+  <p class="perf">Корзина</p>
+
+<div class="korzin">
+  <div class="product_1">
+    <div class="product_image">
+      <img src="Pk2.svg" />
+    </div>
+    <div class="menushka">
+      <div class="title_menu">
+        <div class="op">
+          <p class="zag">Мощные</p>
+          <p class="podpis_1">Мощные премиальные игровые ПК</p>
+        </div>
+        <p class="pink1">От 208 700 ₽<br />7 757 ₽/мес</p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (1).svg" />
+        <p class="kart1">
+          NVIDIA GeForce RTX 4070 / 4070 Ti / 4080 / 4090
+        </p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (2).svg" />
+        <p class="kart_1">Intel Core i5 / i7 / i9, K-серия</p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (3).svg" />
+        <p class="kart_1">Замкнутое водяное охлаждение</p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (4).svg" />
+        <p class="kart_1">До 96GB оперативной памяти DDR5</p>
+      </div>
+    </div>
+    <div class="knopki_1">
+        <button id="Zakazi" class="korz_1">Сформировать заказ</button>
+    </div>
+  </div>
+
+  <div class="product_1">
+    <div class="product_image">
+      <img src="Pk3.svg" />
+    </div>
+    <div class="menushka">
+      <div class="title_menu">
+        <div class="op">
+          <p class="zag">Кастомные</p>
+          <p class="podpis">Эксклюзивные с кастомным<br />охлаждением</p>
+        </div>
+        <p class="pink1">От 953 500 ₽<br />35 436 ₽/мес</p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (1).svg" />
+        <p class="kart1">NVIDIA GeForce RTX 4090</p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (2).svg" />
+        <p class="kart_1">Intel Core i9</p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (3).svg" />
+        <p class="kart_1">Кастомное водяное охлаждение</p>
+      </div>
+      <div class="parent">
+        <img src="Ptov (4).svg" />
+        <p class="kart_1">До 96GB оперативной памяти DDR5</p>
+      </div>
+    </div>
+    <div class="knopki_1">
+        <button id="Zakazi" class="korz_1" >Сформировать заказ</button>
+    </div>
+  </div>
+</div>
+
+<!-- Окно формирование заказа -->
+<div id="zakaznik" class="zakazn">
+<form id="Oforml_zkz" class="oformlen_okno">
+<div class="oformlen">
+    <p class="of_nadp">Оформление заказа</p>
+    <p>Введите данные карты:</p>
+    <div class="cart">
+        <div class="cartt">
+        <p>Номер карты<input id="vid" class="vvod_k" type="text"></p>
+        <p>Срок действия<input id="vid" class="vvod_kk" type="text"></p></div>
+        <p>Код/CVC<input id="vid" class="vvod_kku" type="text"></p>
+    </div>
+    <p>Адрес доставки: <input id="vid" class="vvod" type="text"> </p>
+    <p>Ваш Телефон: <input id="vid" class="vvod_2" type="text"> </p>
+    <p>Ваше Имя: <input id="vid" class="vvod_3" type="text"> </p>
+    <div class="delivery">
+        <p>Способ доставки</p>
+        <div class="delivery_but">
+            <p><input name="dost" checked="checked" type="radio" >Курьер</p>
+            <p><input name="dost" type="radio" >Почта</p>
+        </div>
+    </div>
+    <div class="tututu">
+    <p>Комментарий:<input class="vvod_big" type="text"></p>
+    <!-- <div class="Zakz">
+    <button id="Zakzzzz" onclick="openForm()" >Заказать</button></div> -->
+    </div>
+</div> 
+</form>
+<div class="Zakz">
+  <button id="Zakzzzz" onclick="openForm()" >Заказать</button></div>
+</div>
+
+<div id="fanks_zkz" class="fanks">
+  <form id="spska" class="sps_okno">
+      <div class="rasp">
+        <p class="sps_nadps">Спасибо за заказ!</p>
+        <p class="rad_nadps">Будем рады видеть вас снова :)</p>
+        <button class="okey" id="oki" >OK</button>
+      </div>
+  </form>
+</div>
+
+
+<footer>
+    <div class="logo_foot">
+      <a href="/">
+        <img src="Logo.svg" />
+      </a>
+      <div>
+        <div class="drem">DremPK</div>
+        <div class="pink">Интернет-магазин комп-техники</div>
+      </div></div>
+
+    <div class="opis_foot">
+      <ul class="left_opis">
+        <li class="zagl"><a class="zagl" href="index.html #model">Модели</a></li>
+        <li><a href="index.html #model">Игровые компьютеры</a></li>
+        <li><a href="index.html #komplect">Комплектующие</a></li>
+        <li><a href="index.html #perif">Периферия</a></li>
+        <li><a href="index.html #model">Каталог</a></li>
+      </ul>
+      <ul class="centre_opis">
+        <li class="zagl"><a href="О нас.html">Компания</a></li>
+        <li><a href="index.html #contacts">Контакты</a></li>
+        <li><a href="О нас.html">О нас</a></li>
+      </ul>
+      <ul class="cont_foot">
+        <li class="zagl">Контакты</li>
+        <li><img class="cart_foot" src="1.svg" />ГБПОУ ПКК «ОНИКС»</li>
+        <li><div class="line_sprv"></div></li>
+        <li><img class="cart_foot" src="2.svg" />8 (952) 642-47-71</li>
+        <li><div class="line_sprv"></div></li>
+        <li><img class="cart_foot" src="3.svg" />Ежедневно с 10:00 до 20:00</li>
+      </ul>
+    </div>
+  </footer>
+        <div class="socseti">
+          <a href="https://web.telegram.org/"><img src="tg.svg" /></a>
+          <a href="https://vk.com/"><img src="vk.svg" /></a> 
+          <a href="https://dzen.ru/?experiment=931375"><img src="dzen.svg" /></a>
+          <a href="https://www.avito.ru/"><img src="avito.svg" /></a>
+      </div>
+</body>
+
+<script>
+    // Открытие Оформления заказа
+document.querySelector("#Zakazi").addEventListener('click', function () {
+    document.querySelector("#zakaznik").style.display = 'flex';
+});
+
+//       // Открытие окна благодарности
+//        document.querySelector('#Zakzzzz').addEventListener('click', function () {
+//          document.querySelector('#zakazn').style.display = 'none';  
+//      document.querySelector('#fanks_zkz').style.display = 'flex';
+
+//  });
+
+  function openForm() {
+      var form = document.getElementById("fanks_zkz");
+      var kurichi = document.getElementById("zakaznik");
+      kurichi.style.display="none";
+      form.style.display = "flex";
+      
+    }
+</script>
+
+
+</html>

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DremPK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #000">
+    <header>
+        <a href="/">
+          <img src="Logo.svg" />
+        </a>
+      <div class="title">
+        <div class="drem">DremPK</div>
+        <div class="pink">Интернет-магазин комп-техники</div>
+      </div>
+    </header>
+    <div class="Basket">
+      <a href="Basket.html"><img src="basket.svg"></a>
+    </div>
+    <menu>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="zakazi.html">Заказы</a></li>
+        <li><a href="О нас.html">О нас</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </menu>
+    <main>
+      <div class="slov">
+        <p class="nadpp">
+          Создаём компьютеры, которые будут дарить геймерам и творческим <br />
+          профессионалам удовольствие от использования
+        </p>
+      </div>
+
+      <button class="filt" type="button">Фильтр</button>
+      <a name="model"></a>
+      <section id="product-con">
+        <div class="product">
+          <div class="product_image">
+            <img src="Pk1.svg" />
+          </div>
+
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Оптимальные</p>
+                <p class="podpis">Сбалансированные игровые ПК</p>
+              </div>
+              <p class="pink1">
+                От 114 300 ₽<br />
+                4 248 ₽/мес
+              </p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">GeForce RTX 4060 / 4060 Ti / 4070</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Intel Core i3 / i5 / i7, F-серия</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Воздушное/водяное охлаждение</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">До 32GB оперативной памяти DDR4</p>
+            </div>
+          </div>
+
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product_image">
+            <img src="Pk2.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Мощные</p>
+                <p class="podpis_1">Мощные премиальные игровые ПК</p>
+              </div>
+              <p class="pink1">От 208 700 ₽<br />7 757 ₽/мес</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">
+                NVIDIA GeForce RTX 4070 / 4070 Ti / 4080 / 4090
+              </p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Intel Core i5 / i7 / i9, K-серия</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Замкнутое водяное охлаждение</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">До 96GB оперативной памяти DDR5</p>
+            </div>
+          </div>
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="product">
+          <div class="product_image">
+            <img src="Pk3.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Кастомные</p>
+                <p class="podpis">Эксклюзивные с кастомным<br />охлаждением</p>
+              </div>
+              <p class="pink1">От 953 500 ₽<br />35 436 ₽/мес</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">NVIDIA GeForce RTX 4090</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Intel Core i9</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Кастомное водяное охлаждение</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">До 96GB оперативной памяти DDR5</p>
+            </div>
+          </div>
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product_image">
+            <img src="Ноутбуки.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Игровые ноутбуки</p>
+                <p class="podpis">Возьми игру с собой</p>
+              </div>
+              <p class="pink1">
+                От 252 600 ₽<br />
+                9 388 ₽/мес
+              </p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">NVIDIA GeForce RTX 4070 / 4080 / 4090</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Intel Core i7 / i9</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Воздушное охлаждение</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">32GB оперативной памяти DDR5</p>
+            </div>
+          </div>
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product_image">
+            <img src="Рабочие станции.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Рабочие станции</p>
+                <p class="podpis">Профессиональные решения</p>
+              </div>
+              <p class="pink1">
+                От 146 400 ₽<br />
+                5 441 ₽/мес
+              </p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">NVIDIA GeForce, Quadro</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Intel Core i5 / i7 / i9, AMD Threadripper</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Воздушное/водяное охлаждение</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">До 512 GB оперативной памяти DDR4/DDR5</p>
+            </div>
+          </div>
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product_image">
+            <img src="Конфигуратор ПК.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Корпус ПК</p>
+                <p class="podpis">
+                  Супер охлаждение и приятная подсветка сделают<br />игру
+                  незабываемой
+                </p>
+              </div>
+              <p class="pink1">
+                От 114 300 ₽<br />
+                4 248 ₽/мес
+              </p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">Форм-фактор: Midi-Tower</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">спереди 3x120 мм, сзади 1х120 мм</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Воздушное/водяное охлаждение</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">Разъемы: USB 2.0: 2шт, USB 3.0: 1шт</p>
+            </div>
+          </div>
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <a name="komplect"></a>
+          <div class="product_image">
+            <img src="Видюха.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Игровая видеокарта</p>
+                <p class="podpis">Игровая видеокарта для твоих игрушек</p>
+              </div>
+              <p class="pink1">32 590 ₽</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">NVIDIA GeForce RTX 2060SUPER</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Память: 8 ГБ GDDR6</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Охлаждение активное; с радиатором</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">Интерфейс: PCI-E 3.0</p>
+            </div>
+          </div>
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product_image">
+            <img src="Оперативка.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Оперативная память</p>
+                <p class="podpis">Мегапямять для твоего ПК</p>
+              </div>
+              <p class="pink1">19 990 ₽</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">Частота: 6000 МГц</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Форм-фактор: DIMM, 288-pin</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Особенности: оснащается радиатором</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">Объем: 4х 8 ГБ</p>
+            </div>
+          </div>
+          <div class="knopki">
+            <button onclick="basketss()" class="korz" type="button">В корзину</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product_image">
+            <img src="Материнка.svg" />
+          </div>
+          <div class="menushka">
+            <div class="title_menu">
+              <div class="op">
+                <p class="zag">Материнская плата</p>
+                <p class="podpis">Уютный домик для твоих компонентов</p>
+              </div>
+              <p class="pink1">12 430 ₽</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (1).svg" />
+              <p class="kart1">Форм-фактор: ATX</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (2).svg" />
+              <p class="kart_1">Сокет: SocketAM4</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (3).svg" />
+              <p class="kart_1">Разъемы: M.2 х 2, HDMI х 1, DVI х 1</p>
+            </div>
+            <div class="parent">
+              <img src="Ptov (4).svg" />
+              <p class="kart_1">Память: частотой до 3200 МГц</p>
+            </div>
+          </div>
+          <div class="knopki">
+
+            <div>
+              <button onclick="basketss()" class="korz" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="plusik">
+      <img class="plusik" src="plus.svg"></div>
+
+      <div class="line_1"></div>
+      <p class="nadpis">
+        <b class="osnadpis">DremPK</b> - это восхитительный дизайн, высокая
+        производительность,<br />
+        безупречное качество и персональный сервис
+      </p>
+      <div class="line"></div>
+      <a name="perif"></a>
+      <p class="perf">Периферия</p>
+
+      <section id="product-con">
+      <div class="product">
+        <div class="product_image">
+          <img src="Видюха.svg" />
+        </div>
+        <div class="menushka">
+          <div class="title_menu">
+            <div class="op">
+              <p class="zag">Игровая видеокарта</p>
+              <p class="podpis">Игровая видеокарта для твоих игрушек</p>
+            </div>
+            <p class="pink1">32 590 ₽</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (1).svg" />
+            <p class="kart1">NVIDIA GeForce RTX 2060SUPER</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (2).svg" />
+            <p class="kart_1">Память: 8 ГБ GDDR6</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (3).svg" />
+            <p class="kart_1">Охлаждение активное; с радиатором</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (4).svg" />
+            <p class="kart_1">Интерфейс: PCI-E 3.0</p>
+          </div>
+        </div>
+        <div class="knopki">
+          <div>
+            <button onclick="basketss()" class="korz" type="button">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product_image">
+          <img src="Оперативка.svg" />
+        </div>
+        <div class="menushka">
+          <div class="title_menu">
+            <div class="op">
+              <p class="zag">Оперативная память</p>
+              <p class="podpis">Мегапямять для твоего ПК</p>
+            </div>
+            <p class="pink1">19 990 ₽</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (1).svg" />
+            <p class="kart1">Частота: 6000 МГц</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (2).svg" />
+            <p class="kart_1">Форм-фактор: DIMM, 288-pin</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (3).svg" />
+            <p class="kart_1">Особенности: оснащается радиатором</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (4).svg" />
+            <p class="kart_1">Объем: 4х 8 ГБ</p>
+          </div>
+        </div>
+        <div class="knopki">
+          <button onclick="basketss()" class="korz" type="button">В корзину</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product_image">
+          <img src="Материнка.svg" />
+        </div>
+        <div class="menushka">
+          <div class="title_menu">
+            <div class="op">
+              <p class="zag">Материнская плата</p>
+              <p class="podpis">Уютный домик для твоих компонентов</p>
+            </div>
+            <p class="pink1">12 430 ₽</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (1).svg" />
+            <p class="kart1">Форм-фактор: ATX</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (2).svg" />
+            <p class="kart_1">Сокет: SocketAM4</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (3).svg" />
+            <p class="kart_1">Разъемы: M.2 х 2, HDMI х 1, DVI х 1</p>
+          </div>
+          <div class="parent">
+            <img src="Ptov (4).svg" />
+            <p class="kart_1">Память: частотой до 3200 МГц</p>
+          </div>
+        </div>
+        <div class="knopki">
+          <div>
+            <button onclick="basketss()" class="korz" type="button">В корзину</button>
+          </div>
+        </div>
+      </div>
+      
+      
+</section>
+<div class="plusik">
+        <img class="plusik" src="plus.svg"></div>
+<a name="contacts"></a>
+      <p class="perf_1">Подбери свой ПК в магазине DremPK</p>
+    <div class="contact" >
+        <img class="mini_pic" src="Мини картинка.jpg">
+        <div class="podps_sprava">
+            <p class="osn_text">Подбери новый компьютер с экспертами DremPK<br>в Перми<p>     
+        <div class="cont">
+            <img class="cartink" src="1.svg" />
+            <p>ГБПОУ ПКК «ОНИКС»<p>     
+        </div>
+        <div class="line_sprv"></div>
+        <div class="cont">
+            <img class="cartink" src="2.svg" />
+            <p>8 (952) 642-47-71<p>     
+        </div>
+        <div class="line_sprv"></div>
+        <div class="cont">
+            <img class="cartink" src="3.svg" />
+            <p>Ежедневно с 10:00 до 20:00<p>     
+        </div>
+    </div>
+    </div>
+      <div class="karta"><iframe src="https://yandex.ru/map-widget/v1/?ll=56.221157%2C58.002925&mode=search&oid=1064300558&ol=biz&source=serp_navig&z=17.68" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </main>
+  <footer>
+    <div class="logo_foot">
+      <a href="/">
+        <img src="Logo.svg" />
+      </a>
+      <div>
+        <div class="drem">DremPK</div>
+        <div class="pink">Интернет-магазин комп-техники</div>
+      </div></div>
+
+    <div class="opis_foot">
+      <ul class="left_opis">
+        <li class="zagl"><a class="zagl" href="index.html #model">Модели</a></li>
+        <li><a href="index.html #model">Игровые компьютеры</a></li>
+        <li><a href="index.html #komplect">Комплектующие</a></li>
+        <li><a href="index.html #perif">Периферия</a></li>
+        <li><a href="index.html #model">Каталог</a></li>
+      </ul>
+      <ul class="centre_opis">
+        <li class="zagl"><a href="О нас.html">Компания</a></li>
+        <li><a href="index.html #contacts">Контакты</a></li>
+        <li><a href="О нас.html">О нас</a></li>
+      </ul>
+      <ul class="cont_foot">
+        <li class="zagl">Контакты</li>
+        <li><img class="cart_foot" src="1.svg" />ГБПОУ ПКК «ОНИКС»</li>
+        <li><div class="line_sprv"></div></li>
+        <li><img class="cart_foot" src="2.svg" />8 (952) 642-47-71</li>
+        <li><div class="line_sprv"></div></li>
+        <li><img class="cart_foot" src="3.svg" />Ежедневно с 10:00 до 20:00</li>
+      </ul>
+    </div>
+  </footer>
+        <div class="socseti">
+          <a href="https://web.telegram.org/"><img src="tg.svg" /></a>
+          <a href="https://vk.com/"><img src="vk.svg" /></a> 
+          <a href="https://dzen.ru/?experiment=931375"><img src="dzen.svg" /></a>
+          <a href="https://www.avito.ru/"><img src="avito.svg" /></a>
+      </div>
+  </body>
+</html>

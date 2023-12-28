@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>DremPK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <body style="background-color: #000">
+        <header>
+            <a href="/">
+              <img src="Logo.svg" />
+            </a>
+          <div class="title">
+            <div class="drem">DremPK</div>
+            <div class="pink">Интернет-магазин комп-техники</div>
+          </div>
+        </header>
+    
+        <menu>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index.html #model">Модели</a></li>
+            <li><a href="index.html #contacts">Контакты</a></li>
+            <li><a href="О нас.html">О нас</a></li>
+            <li><a href="#">Войти</a></li>
+          </ul>
+        </menu>
+    
+        <div class="slider">
+          <img src="Меню1.jpg" alt="Изображение 1" class="slide" />
+          <img src="Меню2.jpg" alt="Изображение 2" class="slide" />
+          <img src="Меню3.jpg" alt="Изображение 3" class="slide" />
+        </div>
+    
+        <script>
+          let currentIndex = 0;
+          const slides = document.querySelectorAll(".slide");
+          const slideInterval = 4000;
+    
+          function changeSlide() {
+            slides[currentIndex].style.opacity = 0;
+            currentIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].style.opacity = 1;
+          }
+          setInterval(changeSlide, slideInterval);
+        </script>
+
+        <main>
+            <p class="perf">О нас</p>
+        <div class="O_nas">
+                <img class="tom" src="Tom.jpg">
+                <div class="text">
+                <p class="nasn">Здравствуйте, я – Александр Думчиков,
+                    основатель компании DremPK </p>
+                    <br>
+                <ul class="nass">
+                    <li>Я прошел все этапы работы: сам продавал, собирал и доставлял<br>компьютеры клиентам. Как никто другой знаю, как это делать правильно;</li>
+                    <li>Построил молодую и перспективную компанию;</li>
+                    <li>Имею очень большой опыт в сфере компьютеров и все что с ними связано.</li>
+                </ul>
+            </div>
+        </div>
+            <div class="line_sprv1"></div>
+            <p class="perf">Наша миссия</p>
+            <p class="miss">Создавать <u>лучшие компьютеры</u>, которые будут дарить геймерами творческим профессионалам удовольствие от использования.<br>
+                DremPK это прекрасный дизайн, высокая производительность,безупречное качество и персональный сервис.</p>
+            <div class="line_sprv1"></div>
+            <div class="reklam">
+            <img src="Реклама.png"></div>
+
+            <div class="catalog_recl">
+                <img src="Optimal.svg">
+                <img src="Moch.svg">
+                <img src="Castom.svg">
+                <img src="Oper.svg">
+                <img src="Videokarta.svg">
+            </div>
+        </main>
+
+        <footer>
+            <div class="logo_foot">
+              <a href="/">
+                <img src="Logo.svg" />
+              </a>
+              <div>
+                <div class="drem">DremPK</div>
+                <div class="pink">Интернет-магазин комп-техники</div>
+              </div></div>
+        
+            <div class="opis_foot">
+              <ul class="left_opis">
+                <li class="zagl"><a class="zagl" href="index.html #model">Модели</a></li>
+                <li><a href="index.html #model">Игровые компьютеры</a></li>
+                <li><a href="index.html #komplect">Комплектующие</a></li>
+                <li><a href="index.html #perif">Периферия</a></li>
+                <li><a href="index.html #model">Каталог</a></li>
+              </ul>
+              <ul class="centre_opis">
+                <li class="zagl"><a href="О нас.html">Компания</a></li>
+                <li><a href="index.html #contacts">Контакты</a></li>
+                <li><a href="О нас.html">О нас</a></li>
+              </ul>
+              <ul class="cont_foot">
+                <li class="zagl">Контакты</li>
+                <li><img class="cart_foot" src="1.svg" />ГБПОУ ПКК «ОНИКС»</li>
+                <li><div class="line_sprv"></div></li>
+                <li><img class="cart_foot" src="2.svg" />8 (952) 642-47-71</li>
+                <li><div class="line_sprv"></div></li>
+                <li><img class="cart_foot" src="3.svg" />Ежедневно с 10:00 до 20:00</li>
+              </ul>
+            </div>
+          </footer>
+                <div class="socseti">
+                  <a href="https://web.telegram.org/"><img src="tg.svg" /></a>
+                  <a href="https://vk.com/"><img src="vk.svg" /></a> 
+                  <a href="https://dzen.ru/?experiment=931375"><img src="dzen.svg" /></a>
+                  <a href="https://www.avito.ru/"><img src="avito.svg" /></a>
+              </div>
+    
+</body>
+</html>
